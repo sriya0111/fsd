@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            body {
+                background-color: whitesmoke;
+                padding: 50px;
+            }
+            h1 {
+                margin: 10px;
+            }
+
+            form {
+                background-color: white;
+                padding: 30px;
+                width: 30%;
+                margin: auto;
+                box-shadow: 0 0 6px;
+            }
+
+            div {
+                margin-bottom: 15px;
+            }
+
+            input[type="text"],
+            input[type="password"],
+            input[type="date"],
+            input[type="email"],
+            input[type="number"],
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 10px ;
+                border: 1px solid lightgray;
+            }
+            input[type="radio"]{
+                margin: 15px;
+            }
+            input[type="button"] {
+                width: 100%;
+                padding: 10px;
+                background-color: royalblue;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Name &nbsp;: Sriya</h2>
+        <h2>Roll no: 23255A0501</h2>
+        <h1 align="center">Registration Form</h1>
+        <form>
+            <div>
+                USERNAME
+                <input type="text" placeholder="Enter username">
+                PASSWORD
+                <input type="password" placeholder="Enter password">
+                DATE OF BIRTH
+                <input type="date" placeholder="Enter date of birth">
+                GENDER&emsp;
+                <input type="radio" name="gender" value="FEMALE" >
+                Female&emsp;&emsp;
+                <input type="radio" name="gender" value="MALE">
+                Male
+                <br>
+                MAIL ID
+                <input type="email" placeholder="Enter your email">
+                CONTACT NO
+                <input type="number" placeholder="Enter mobile number">
+                ADDRESS
+                <textarea rows="3" placeholder="Enter address"></textarea>
+                <input type="button" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
